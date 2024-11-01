@@ -21,7 +21,7 @@ A simple e-commerce product listing page built with the [Fake Store API](https:/
 1. Clone the repository and navigate to the directory:
 
    ```bash
-   git clone https://github.com/your-username/product-listing-page.git
+   git clone https://github.com/IslamMahmoud0606/e-shop.git
    cd product-listing-page
    ```
 
