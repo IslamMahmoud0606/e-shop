@@ -1,0 +1,61 @@
+.home {
+  background-image: url(..//imges/home.png);
+  width: 100%;
+  height: calc(100vh - 62px);
+  background-size: cover;
+  background-position: top 250%;
+  padding: 0 80px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.home .desc {
+  width: 45%;
+}
+.home .desc h1 {
+  font-size: 50px;
+  color: #000;
+}
+.home .desc span {
+  color: #088178;
+}
+.home .desc button {
+  border: none;
+  padding: 10px 70px;
+  color: white;
+  background-color: #08817900;
+  background-image: url(../imges/button.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  transition: 0.3s;
+}
+.home .desc button:hover {
+  transform: scale(1.1);
+}
+
+/**************************************** Media ****************************************/
+
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 0 50px;
+  }
+  .home .desc {
+    width: auto;
+  }
+  .home .desc h1 {
+    font-size: 45px;
+    color: #000;
+    margin: 20px 0;
+  }
+  .home .desc button {
+    padding: 10px 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .home {
+    padding: 0 10px;
+  }
+}
